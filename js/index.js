@@ -1,24 +1,34 @@
 $(document).ready(function() {
-	// $("p:contains(Lorem)").addClass("caption");
+	// select the first p, and add lead class to it
+
+	// add caption class to all paragraphs that contain word (Lorum)
+	// Select the p elements with the contains selector
+
+	// update the lorum text inside the p of the div with id affectionate
 
 	// navigation click actions
 	$('.scroll-link').on('click', function(e){
-		e.preventDefault();
+		// Prevent Default Behavior
+
+		// Grab the section id from the data-id attribute and store it in variable.
+
+		// Call scrollToID function passing in the section id and a speed of 750
 	});
 
 	// scroll to top action
 	$('.scroll-top').on('click', function(e) {
-		e.preventDefault();
-	});
+		// Prevent Default Behavior
 
-	// mobile nav toggle
-	$('#nav-toggle').on('click', function (e) {
-		e.preventDefault();
+		// Grab html, and body, and animate slowly to top of screen.
 	});
 
 	// input checkboxs to modify the progrss-bar
 	$('input').on('click', function() {
+		// Set an inital empty value
 
+		// grab the inputs with the checked selector
+		// for each of them, increment the empty value with the value of the check box.
+		// grab the progress bar via class, and set it's css
 	});
 });
 
